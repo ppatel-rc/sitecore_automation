@@ -49,6 +49,7 @@ cd C:\GitHub\AlexionSitecoreSites\SolirisGMG\code\Alexion.Project.SolirisGMGPro
 buildVS Alexion.Project.SolirisGMGPro.sln
 cd C:\GitHub\AlexionSitecoreSites\SolirisGMG\code\Alexion.Sitecore.Project.SolirisGMGPro
 buildVS Alexion.Sitecore.Project.SolirisGMGPro.sln 
+Copy-Item -Path "C:\GitHub\Sitecore-Foundation\Alexion.Foundation.API.Sitemap\App_Config\Include\Alexion.Foundation.API.Sitemap" -Destination "C:\inetpub\wwwroot\Sitecore-Dev-9.3sc.dev.local\App_Config\Include\" -Recurse -Force
 Copy-Item -Path "C:\GitHub\AlexionSitecoreSites\SolirisGMG\code\Alexion.Sitecore.Project.SolirisGMGPro\App_Config\Include\Alexion.Sitecore.Config.Patches" -Destination "C:\inetpub\wwwroot\Sitecore-Dev-9.3sc.dev.local\App_Config\Include\" -Recurse -Force
 Copy-Item -Path "C:\GitHub\AlexionSitecoreSites\SolirisGMG\code\Alexion.Sitecore.Project.SolirisGMGPro\App_Config\Include\SolirisGMGPro.Project.Website" -Destination "C:\inetpub\wwwroot\Sitecore-Dev-9.3sc.dev.local\App_Config\Include\" -Recurse -Force
 cd C:\inetpub\wwwroot\Sitecore-Dev-9.3sc.dev.local\App_Config\Include\SolirisGMGPro.Project.Website
